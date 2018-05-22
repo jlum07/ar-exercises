@@ -8,3 +8,7 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
+rev = Store.sum(:annual_revenue)
+
+puts rev
+puts rev/Store.all.count
